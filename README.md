@@ -28,33 +28,33 @@ Você deverá desenvolver um projeto utilizando React no front-end e Node.js no 
 
 ```bash
 # Handle
-"http://localhost:3003/createPet"
+"https://api-astonpetshop.onrender.com/createPet"
 Adiciona um novo agendamento.
 ```
 
 ```bash
 # Edit by id
-"http://localhost:3003/editPetById/:id "
+"https://api-astonpetshop.onrender.com/editPetById/:id "
 
 Recebe um id como parametro e edita a data do procedimento marcado
 ```
 
 ```bash
 # Handle pet
-"http://localhost:3003/handlePet"
+"https://api-astonpetshop.onrender.com/handlePet"
 Retorna todos os agendamentos e as suas informações.
 ```
 
 ```bash
 # Handle pet by id 
-"http://localhost:3003/handlePet/:id"
+"https://api-astonpetshop.onrender.com/handlePet/:id"
 Recebe o id do cliente como parametro e retorna as informaçoes do agendamento do pet em questão.
 
 ```
 
 ```bash
 # Delete pet by id 
-"http://localhost:3003/handlePet/:id"
+"https://api-astonpetshop.onrender.com/handlePet/:id"
 Recebe o id do cliente como parametro e exclui o agendamento marcado.
 
 ```
@@ -62,26 +62,26 @@ Recebe o id do cliente como parametro e exclui o agendamento marcado.
 
 ```bash
 # Register
-"http://localhost:3003/register"
+"https://api-astonpetshop.onrender.com/register"
 Registra um novo usuario para fazer um agendamento.
 ```
 
 ```bash
 # Get User
-"http://localhost:3003/getUser "
+"https://api-astonpetshop.onrender.com/getUser "
 
 Retorna todos os clientes cadastrados no banco de dados.
 ```
 
 ```bash
 # Get user by id 
-"http://localhost:3003/getUserById/:idUser"
+"https://api-astonpetshop.onrender.com/getUserById/:idUser"
 Recebe o id do cliente como parametro e retorna as informaçoes de cadastro.
 ```
 
 ```bash
 # Delete user by id 
-"http://localhost:3003/getUser/:idUser"
+"https://api-astonpetshop.onrender.com/getUser/:idUser"
 Recebe o id do cliente como parametro e o exclui do banco de dados.
 
 ```
