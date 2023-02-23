@@ -55,7 +55,7 @@ Exclusao de agendamentos
 
 
 ## Demonstração do projeto
-[Link Demonstração](https://possible-boat.surge.sh/)
+[Link Demonstração](http://verdant-boot.surge.sh/)
 
 
 ## Como rodar esse projeto?
@@ -65,7 +65,7 @@ Exclusao de agendamentos
 $ git clone linkrepo
 
 # Acesse a pasta do projeto no seu computador
-$ cd casefront
+$ cd frontEnd
 
 # Instale as dependências
 $ npm run start
