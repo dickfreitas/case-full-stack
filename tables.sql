@@ -1,4 +1,6 @@
-CREATE TABLE record_client(
+CREATE TABLE 
+
+    IF NOT EXISTS record_client(
 	id VARCHAR(255) PRIMARY KEY NOT NULL,
 	name VARCHAR(255)  NOT NULL,
 	adress VARCHAR(100) NOT NULL,
@@ -6,7 +8,9 @@ CREATE TABLE record_client(
 	phone VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE record_pet(
+CREATE TABLE 
+
+    IF NOT EXISTS record_pet(
 	id VARCHAR(100) PRIMARY KEY NOT NULL  ,
 	name VARCHAR(255)  NOT NULL,
     age INT NOT NULL,
