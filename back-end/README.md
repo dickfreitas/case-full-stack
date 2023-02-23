@@ -1,5 +1,5 @@
  # Case Full-Stack - Back-End
- ![SoftMaker](../backEnd/src/img/softmaker_logo.png)
+ ![SoftMaker](../back-end/src/img/softmaker_logo.png)
 
  Criação de um site de agendamento para um petshop.
  
